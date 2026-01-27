@@ -1,7 +1,7 @@
 # COP-3701-Airbnb-Database-Project
 # NYC Rental Marketplace Database
-* ** Domain:** Real Estate Tech and Data Engineering
-* ** High Level Goal: ** Develop a database backend for the airbnb rental marketplace that will implement dynamic pricing logic and optimized geographic search capabilities. 
+* **Domain:** Real Estate Tech and Data Engineering
+* **High-Level Goal:** Develop a database backend for the airbnb rental marketplace that will implement dynamic pricing logic and optimized geographic search capabilities. 
 ## Project Scope
 * **Relational Database Architecture:** Normalizing raw CSV data into structured tables (Listings, Hosts, and Pricing) to ensure data integrity.
 * **Dynamic Pricing Views:** Implementation of SQL views that calculate "Optimal Market Rates" based on current listing availability and neighborhood demand metrics.
