@@ -30,4 +30,5 @@ This ER diagram models an Airbnb management database for New York City listings.
 - Single-value Attribute: price
 
 ## ER Diagram
-![ER Diagram](er_diagram.png)
+<img width="1323" height="703" alt="er_diagram" src="https://github.com/user-attachments/assets/edf8b3ff-2250-4c93-8fb1-346172f083b6" />
+
