@@ -18,3 +18,10 @@
 * **Format:** CSV (`AB_NYC_2019.csv`)
 * **Description:** This dataset provides approximately 49,000 observations of listing activity in NYC. Key attributes include geographical coordinates, neighborhood groups (boroughs), room types, pricing, and review metrics.
 
+## Database Application Proposal
+This application is a comprehensive rental marketplace engine designed to manage short-term accommodations in New York City. Beyond simple data storage, the system facilitates user bookings, host management, and dynamic seasonal pricing. 
+
+**Unique Technical Aspects:**
+* **Associative Booking Logic:** Handles complex many-to-many relationships between guests and properties.
+* **Weak Entity Pricing:** Implements `Seasonal_Rates` that exist only in relation to specific listings to support dynamic market analysis.
+* **User Group Segregation:** Differentiates between 'Hosts' (service providers) and 'Travelers' (consumers).
