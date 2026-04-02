@@ -21,6 +21,10 @@
 ## Database Application Proposal
 This application is a comprehensive rental marketplace engine designed to manage short-term accommodations in New York City. Beyond simple data storage, the system facilitates user bookings, host management, and dynamic seasonal pricing. 
 
+## How to build the Database
+1. Run the preprocess.py script. This will clean the raw AB_NYC_2019.csv file.
+2. Run the dataload.py script. This will execute create_db.sql schema and import the processed CSV files from /data folder into nyc_airbnb.db file.
+
 **Unique Technical Aspects:**
 * **Associative Booking Logic:** Handles complex many-to-many relationships between guests and properties.
 * **Weak Entity Pricing:** Implements `Seasonal_Rates` that exist only in relation to specific listings to support dynamic market analysis.
